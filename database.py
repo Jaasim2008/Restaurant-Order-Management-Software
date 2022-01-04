@@ -1,0 +1,8 @@
+breakfast_foods = ['Eggs', 'Bread', 'Parota']
+breakfast_prices = [2, 5, 3]
+lunch_foods = ['Rice', 'Fish', 'Chicken']
+lunch_prices = [4, 6, 10]
+dinner_foods = ['Burger', 'Nuggets', 'Chips']
+dinner_prices = [8, 7, 1]
+dessert_foods = ['Pepperoni Pizza', 'Chocolate Juice', 'Strawberry Milkshake']
+dessert_prices = [11, 12, 13]
