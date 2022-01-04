@@ -1,1 +1,1 @@
-# Restaurent-POS-Python
+Just a Test POS Software
