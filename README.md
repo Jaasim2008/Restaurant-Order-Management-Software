@@ -1,1 +1,1 @@
-Just a Test POS Software
+A Restuarant Management System.
