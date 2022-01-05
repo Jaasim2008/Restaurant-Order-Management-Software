@@ -17,25 +17,9 @@ w.attributes('-fullscreen', True)
 icon = PhotoImage(file='assets/cashier.png')
 w.iconphoto(False, icon)
 
-bg_change = IntVar()
-bg_var = bg_change.get()
-
-if bg_var == '1':
-    is_background_color_black = False
-elif bg_var == '0':
-    is_background_color_black = True
-
-print(str(bg_var))
-
 
 def start_page():
-    global is_background_color_black, background_color, bg_change, bg_var
-    if bg_var == '1':
-        is_background_color_black = False
-    elif bg_var == '0':
-        is_background_color_black = True
-
-    print(str(bg_var))
+    global is_background_color_black, background_color
     if not is_background_color_black:
         background_color = 'white'
     elif is_background_color_black:
@@ -51,14 +35,7 @@ def start_page():
     Category_lf.pack(side=TOP, padx=10)
 
     def breakfast_page():
-        global is_background_color_black, background_color, bg_change, bg_var
-        if bg_var == '1':
-            is_background_color_black = False
-        elif bg_var == '0':
-            is_background_color_black = True
-
-        print(str(bg_var))
-
+        global is_background_color_black, background_color
         if not is_background_color_black:
             background_color = 'white'
         elif is_background_color_black:
@@ -89,13 +66,7 @@ def start_page():
         full_status = 'Status : ' + str(current_status)
 
         def add_eggs():
-            global is_background_color_black, background_color, bg_change, bg_var
-            if bg_var == '1':
-                is_background_color_black = False
-            elif bg_var == '0':
-                is_background_color_black = True
-
-            print(str(bg_var))
+            global is_background_color_black, background_color
             if not is_background_color_black:
                 background_color = 'white'
             elif is_background_color_black:
@@ -106,13 +77,7 @@ def start_page():
                                font=('Segoe UI Light Italic', 15)).grid(row=1, column=1, pady=5, padx=5)
 
         def add_bread():
-            global is_background_color_black, background_color, bg_change, bg_var
-            if bg_var == '1':
-                is_background_color_black = False
-            elif bg_var == '0':
-                is_background_color_black = True
-
-            print(str(bg_var))
+            global is_background_color_black, background_color
             if not is_background_color_black:
                 background_color = 'white'
             elif is_background_color_black:
@@ -123,13 +88,7 @@ def start_page():
                                font=('Segoe UI Light Italic', 15)).grid(row=1, column=1, pady=5, padx=5)
 
         def add_parota():
-            global is_background_color_black, background_color, bg_change, bg_var
-            if bg_var == '1':
-                is_background_color_black = False
-            elif bg_var == '0':
-                is_background_color_black = True
-
-            print(str(bg_var))
+            global is_background_color_black, background_color
             if not is_background_color_black:
                 background_color = 'white'
             elif is_background_color_black:
@@ -140,13 +99,7 @@ def start_page():
                                font=('Segoe UI Light Italic', 15)).grid(row=1, column=1, pady=5, padx=5)
 
         def add_tamales():
-            global is_background_color_black, background_color, bg_change, bg_var
-            if bg_var == '1':
-                is_background_color_black = False
-            elif bg_var == '0':
-                is_background_color_black = True
-
-            print(str(bg_var))
+            global is_background_color_black, background_color
             if not is_background_color_black:
                 background_color = 'white'
             elif is_background_color_black:
@@ -157,13 +110,7 @@ def start_page():
                                font=('Segoe UI Light Italic', 15)).grid(row=1, column=1, pady=5, padx=5)
 
         def add_waffels():
-            global is_background_color_black, background_color, bg_change, bg_var
-            if bg_var == '1':
-                is_background_color_black = False
-            elif bg_var == '0':
-                is_background_color_black = True
-
-            print(str(bg_var))
+            global is_background_color_black, background_color
             if not is_background_color_black:
                 background_color = 'white'
             elif is_background_color_black:
@@ -174,13 +121,7 @@ def start_page():
                                font=('Segoe UI Light Italic', 15)).grid(row=1, column=1, pady=5, padx=5)
 
         def add_french_toast():
-            global is_background_color_black, background_color, bg_change, bg_var
-            if bg_var == '1':
-                is_background_color_black = False
-            elif bg_var == '0':
-                is_background_color_black = True
-
-            print(str(bg_var))
+            global is_background_color_black, background_color
             if not is_background_color_black:
                 background_color = 'white'
             elif is_background_color_black:
@@ -191,13 +132,7 @@ def start_page():
                                font=('Segoe UI Light Italic', 15)).grid(row=1, column=1, pady=5, padx=5)
 
         def add_cereal():
-            global is_background_color_black, background_color, bg_change, bg_var
-            if bg_var == '1':
-                is_background_color_black = False
-            elif bg_var == '0':
-                is_background_color_black = True
-
-            print(str(bg_var))
+            global is_background_color_black, background_color
             if not is_background_color_black:
                 background_color = 'white'
             elif is_background_color_black:
@@ -208,13 +143,7 @@ def start_page():
                                font=('Segoe UI Light Italic', 15)).grid(row=1, column=1, pady=5, padx=5)
 
         def add_pancakes():
-            global is_background_color_black, background_color, bg_change, bg_var
-            if bg_var == '1':
-                is_background_color_black = False
-            elif bg_var == '0':
-                is_background_color_black = True
-
-            print(str(bg_var))
+            global is_background_color_black, background_color
             if not is_background_color_black:
                 background_color = 'white'
             elif is_background_color_black:
@@ -225,13 +154,7 @@ def start_page():
                                font=('Segoe UI Light Italic', 15)).grid(row=1, column=1, pady=5, padx=5)
 
         def add_bacon():
-            global is_background_color_black, background_color, bg_change, bg_var
-            if bg_var == '1':
-                is_background_color_black = False
-            elif bg_var == '0':
-                is_background_color_black = True
-
-            print(str(bg_var))
+            global is_background_color_black, background_color
             if not is_background_color_black:
                 background_color = 'white'
             elif is_background_color_black:
@@ -328,13 +251,7 @@ add_item_btn = Button(w, text='Add New Item to Database', fg="#00FF00", font=('S
 
 
 def setting_page():
-    global is_background_color_black, background_color, bg_change, bg_var
-    if bg_var == '1':
-        is_background_color_black = False
-    elif bg_var == '0':
-        is_background_color_black = True
-
-    print(str(bg_var))
+    global is_background_color_black, background_color
     if not is_background_color_black:
         background_color = 'white'
     elif is_background_color_black:
@@ -345,18 +262,18 @@ def setting_page():
     root10.config(bg=background_color)
 
     def theme_swicther_on():
-        global is_background_color_black, background_color, bg_change, bg_var
+        global is_background_color_black, background_color
         is_background_color_black = False
 
     def theme_swicther_off():
-        global is_background_color_black, background_color, bg_change, bg_var
+        global is_background_color_black, background_color
         is_background_color_black = True
 
     light_mode_on = Button(root10, text='Light Mode ON', relief=SUNKEN, bd=0, fg='green', bg=background_color,
-                           font=('Segoe UI Light Italic', 25)).pack()
+                           font=('Segoe UI Light Italic', 25), command=theme_swicther_on).pack()
 
     light_mode_on = Button(root10, text='Light Mode OFF', relief=SUNKEN, bd=0, fg='yellow', bg=background_color,
-                           font=('Segoe UI Light Italic', 25)).pack()
+                           font=('Segoe UI Light Italic', 25), command=theme_swicther_off).pack()
 
     def destroy_window02():
         root10.destroy()
